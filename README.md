@@ -1,6 +1,12 @@
 Echo Server Homework
 ==================
 
+Your task is to build a simple "echo" server.
+
+* The server should automatically return to any client that connects exactly what it receives (it should echo all messages).
+* You will also write a python script that, when run, will send a message to the server and receive the reply, printing it to stdout.
+* Finally, you’ll do all of this so that it can be tested.
+
 Required Tasks:
 ---------------
 
@@ -26,7 +32,7 @@ To run the tests:
 Hints:
 -----
 
-Look at `demo_client.py` and `demo_server.py`. These demonstrate basic client/server communication. You can play the short video `demo_client_server_behavior.mp4` to see an example how these two files can be called to work together.
+Look at `demo_client.py` and `demo_server.py`. These demonstrate basic client/server communication as shown in class. You can play the short video `demo_client_server_behavior.mp4` to see an example how these two files can be called to work together.
 
 To complete the assignment in `echo_server.py` and `echo_client.py`, you'll be using MOST of the same lines of code. The main difference is that the `echo_server`:
 
