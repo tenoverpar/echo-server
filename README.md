@@ -63,7 +63,7 @@ Simple:
 
 * Write a python function that lists the services provided by a given range of
   ports.
-
+  
   * accept the lower and upper bounds as arguments
   * provide sensible defaults
   * Ensure that it only accepts valid port numbers (0-65535)
@@ -74,11 +74,11 @@ Challenging:
   at a time. If a second client were to attempt a connection, it would have to
   wait until the first message was fully echoed before it could be dealt with.
 
-  Python provides a module called `select` that allows waiting for I/O events
+*  Python provides a module called `select` that allows waiting for I/O events
   in order to control flow. The `select.select` method can be used to allow
   our echo server to handle more than one incoming connection in "parallel".
 
-  Read the documentation about the `select` module
+*  Read the documentation about the `select` module
   (http://docs.python.org/3/library/select.html) and attempt to write a second
   version of the echo server that can handle multiple client connections in
   "parallel".  You do not need to invoke threading of any kind to do this.
