@@ -5,7 +5,7 @@ Your task is to build a simple "echo" server.
 
 * The server should automatically return to any client that connects exactly what it receives (it should echo all messages).
 * You will also write a python script that, when run, will send a message to the server and receive the reply, printing it to stdout.
-* Finally, you’ll do all of this so that it can be tested.
+* Finally, you’ll do all of the above in such a way that it can be tested.
 
 Required Tasks:
 ---------------
@@ -18,15 +18,28 @@ Required Tasks:
 
 * Ensure that the tests in ``tests.py`` pass.
 
-To run the tests:
+To Try it Out:
+--------------
+* Open one terminal while in this folder and execute this command:
+
+  `$ python echo_server.py`
+   
+* Open a second terminal in this same folder and execute this command:
+
+  `$ python echo_client.py "This is a test message."`
+  
+Once all tasks are completed, the server should print out a message indicating the message that it received from the client, and the client should print out a message indicating that it received the message back from the server.
+
+To Run the Tests:
+-----------------
 
 * Open one terminal while in this folder and execute this command:
 
-    $ python echo_server.py
+    `$ python echo_server.py`
 
 * Open a second terminal in this same folder and execute this command:
 
-    $ python tests.py
+    `$ python tests.py`
 
 
 Hints:
