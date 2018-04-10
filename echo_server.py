@@ -47,12 +47,20 @@ def server(log_buffer=sys.stderr):
                     #       formatting
                     data = b''
                     print('received "{0}"'.format(data.decode('utf8')))
+                    
                     # TODO: Send the data you received back to the client, log
                     # the fact using the print statement here.  It will help in
                     # debugging problems.
                     print('sent "{0}"'.format(data.decode('utf8')))
-                    # TODO: Check here to see if the message you've received is
-                    # complete.  If it is, break out of this inner loop.
+                    
+                    # TODO: Check here to see whether you have received the end
+                    # of the message. If you have, then break from the `while True`
+                    # loop.
+                    # 
+                    # Figuring out whether or not you have received the end of the
+                    # message is a trick we learned in the lesson: if you don't
+                    # remember then ask your classmates or instructor for a clue.
+                    # :)
 
             finally:
                 # TODO: When the inner loop exits, this 'finally' clause will

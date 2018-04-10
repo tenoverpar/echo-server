@@ -37,7 +37,7 @@ Look at `demo_client.py` and `demo_server.py`. These demonstrate basic client/se
 To complete the assignment in `echo_server.py` and `echo_client.py`, you'll be using MOST of the same lines of code. The main difference is that the `echo_server`:
 
   1. Has an outer loop that accepts a connection from a client, processes a message from that client, closes the client connection, and then repeats.
-  2. Has an inner loop that pulls bytes off the client connection 16 bytes at a time and accumulates them in a byte string.
+  2. Has an inner loop that pulls bytes off the client connection 16 bytes at a time.
   3. Also, you're putting all of this code lives inside of a function named `server`.
 
 One more hint: how do you know when you're done pulling 16 byte chunks off of the client connection? You're done with `recv` returns fewer than 16 bytes.
