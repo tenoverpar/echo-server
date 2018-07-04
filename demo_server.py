@@ -15,4 +15,3 @@ received_message = connection.recv(buffer_size)
 print("Client says: {}".format(received_message.decode()))
 
 connection.sendall("message received".encode('utf8'))
-
