@@ -23,11 +23,11 @@ To Try it Out:
 * Open one terminal while in this folder and execute this command:
 
   `$ python echo_server.py`
-   
+
 * Open a second terminal in this same folder and execute this command:
 
   `$ python echo_client.py "This is a test message."`
-  
+
 Once all tasks are completed, the server should print out a message indicating the message that it received from the client, and the client should print out a message indicating that it received the message back from the server.
 
 To Run the Tests:
@@ -63,7 +63,7 @@ Simple:
 
 * Write a python function that lists the services provided by a given range of
   ports.
-  
+
   * accept the lower and upper bounds as arguments
   * provide sensible defaults
   * Ensure that it only accepts valid port numbers (0-65535)
